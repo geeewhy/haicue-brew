@@ -3,11 +3,13 @@
 Install Haicue with Homebrew:
 
 ```sh
-brew tap geeewhy/haicue-brew
+brew tap geeewhy/haicue-brew https://github.com/geeewhy/haicue-brew
 brew install --cask haicue
 ```
 
 This tap tracks the latest public macOS release. The cask uses a versioned DMG URL and pinned SHA so Homebrew installs remain reproducible while Haicue's in-app updater continues to handle app updates.
+
+Homebrew's two-part shorthand normally maps `user/tap` to a GitHub repo named `homebrew-tap`. This repo is intentionally named `haicue-brew`, so the tap command includes the explicit repository URL.
 
 ## Release Update
 
