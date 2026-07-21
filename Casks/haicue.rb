@@ -1,8 +1,8 @@
 cask "haicue" do
   arch arm: "aarch64"
 
-  version "0.70.51"
-  sha256 arm: "47c440fc00b3132bfd42d8ab348b771dc6baed56645239dfd46cd684ddf9ed11"
+  version "0.76.61"
+  sha256 arm: "8ef863270681c2bbd111e164ba199e46cb6c320a52c078360220b8b165b7e039"
 
   url "https://downloads.haicue.com/public/releases/public/#{version}/macos/#{arch}/Haicue_#{version}_#{arch}.dmg"
   name "Haicue"
@@ -12,7 +12,6 @@ cask "haicue" do
   auto_updates true
   depends_on arch: :arm64
   depends_on :macos
-
   app "Haicue.app"
 
   zap trash: [
