@@ -1,8 +1,8 @@
 cask "haicue" do
   arch arm: "aarch64"
 
-  version "0.97.101"
-  sha256 arm: "7889a3bb1c289320f07e527abbf8223338c205912834404aa04541ebd05b1dd7"
+  version "0.97.102"
+  sha256 arm: "a115dfeae7aa11dc994bf0203a4707c9f9492e0dfb843d7f15eeeb222bd48eb0"
 
   url "https://downloads.haicue.com/public/releases/public/#{version}/macos/#{arch}/Haicue_#{version}_#{arch}.dmg"
   name "Haicue"
