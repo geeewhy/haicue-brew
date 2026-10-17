@@ -13,6 +13,7 @@ cask "haicue" do
   depends_on arch: :arm64
   depends_on :macos
   app "Haicue.app"
+  binary "#{appdir}/Haicue.app/Contents/MacOS/hai"
 
   zap trash: [
     "~/.haicue",
